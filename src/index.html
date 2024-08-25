@@ -18,9 +18,15 @@
 
     <!-- Estilos -->
     <link rel="stylesheet" href="./styles/main.scss">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link async href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script async src="./scripts/main.js"></script>
     <title>NIWA CLUBE de PESCA</title>
 </head>
 
@@ -97,45 +103,53 @@
         </div>
     </section>
 
-    <section class="image-section text-center">
-        <div class="image-text p-2 m-4">
+    <section class="image-section text-center m-0">
+        <div class="image-text px-2">
             <h3 class="sub p-2">Descubra um lugar perfeito para relaxar</h3>
             <p>O investimento que garante bons momentos em meio a natureza, com as melhores pescarias da região.</p>
-        
+
             <!-- Galeria de Imagens -->
             <div class="image-gallery container pb-4">
                 <div class="row">
                     <!-- Linha 1 -->
                     <div class="col-md-3 p-2">
-                        <img src="./images/portaria.jpg" class="img-thumbnail" alt="Imagem 1" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="0">
+                        <img src="./images/portaria.jpg" class="img-thumbnail" alt="Imagem 1" data-bs-toggle="modal"
+                            data-bs-target="#imageModal" data-bs-slide-to="0">
                     </div>
                     <div class="col-md-3 p-2">
-                        <img src="./images/deck.jpg" class="img-thumbnail" alt="Imagem 2" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="1">
+                        <img src="./images/deck.jpg" class="img-thumbnail" alt="Imagem 2" data-bs-toggle="modal"
+                            data-bs-target="#imageModal" data-bs-slide-to="1">
                     </div>
                     <div class="col-md-3 p-2">
-                        <img src="./images/deck2.jpg" class="img-thumbnail" alt="Imagem 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="2">
+                        <img src="./images/deck2.jpg" class="img-thumbnail" alt="Imagem 3" data-bs-toggle="modal"
+                            data-bs-target="#imageModal" data-bs-slide-to="2">
                     </div>
                     <div class="col-md-3 p-2">
-                        <img src="./images/rua.jpg" class="img-thumbnail" alt="Imagem 4" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="3">
+                        <img src="./images/rua.jpg" class="img-thumbnail" alt="Imagem 4" data-bs-toggle="modal"
+                            data-bs-target="#imageModal" data-bs-slide-to="3">
                     </div>
                 </div>
                 <div class="row mt-2">
                     <!-- Linha 2 -->
                     <div class="col-md-3 p-2">
-                        <img src="./images/churrasqueira.jpg" class="img-thumbnail" alt="Imagem 5" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="4">
+                        <img src="./images/churrasqueira.jpg" class="img-thumbnail" alt="Imagem 5"
+                            data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="4">
                     </div>
                     <div class="col-md-3 p-2">
-                        <img src="./images/gazebo.jpg" class="img-thumbnail" alt="Imagem 6" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="5">
+                        <img src="./images/gazebo.jpg" class="img-thumbnail" alt="Imagem 6" data-bs-toggle="modal"
+                            data-bs-target="#imageModal" data-bs-slide-to="5">
                     </div>
                     <div class="col-md-3 p-2">
-                        <img src="./images/play.jpg" class="img-thumbnail" alt="Imagem 7" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="6">
+                        <img src="./images/play.jpg" class="img-thumbnail" alt="Imagem 7" data-bs-toggle="modal"
+                            data-bs-target="#imageModal" data-bs-slide-to="6">
                     </div>
                     <div class="col-md-3 p-2">
-                        <img src="./images/passeio.jpg" class="img-thumbnail" alt="Imagem 8" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="7">
+                        <img src="./images/passeio.jpg" class="img-thumbnail" alt="Imagem 8" data-bs-toggle="modal"
+                            data-bs-target="#imageModal" data-bs-slide-to="7">
                     </div>
                 </div>
             </div>
-        
+
             <!-- Modal -->
             <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -179,9 +193,10 @@
                     </div>
                 </div>
             </div>
-        
+
             <div class="barra text-center justify-content-center">
-                <h3 class="sub2 py-2">Garanta seu título com <strong>preço especial</strong> no lançamento para os primeiros
+                <h3 class="sub2 py-2">Garanta seu título com <strong>preço especial</strong> no lançamento para os
+                    primeiros
                     sócios exclusivos.</h3>
                 <div class="text-center py-3">
                     <a href="#about"></a><button class="btn btn-primary">Saiba Mais</button></a>
@@ -193,11 +208,7 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="./scripts/main.js"></script>
+
 </body>
 
 </html>
